@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ML project specifics
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# Experiment tracking
+wandb/
+mlruns/
+
+# Model files (catch-all)
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+
+# Kaggle credentials
+kaggle.json
