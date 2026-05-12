@@ -6,15 +6,15 @@ ML-powered plant health diagnosis from leaf photos. Trained on the PlantVillage 
 
 - ✅ Phase 1: Data setup + EDA
 - ✅ Phase 2: Model training (MobileNetV3, **99.3% test accuracy**)
-- 🚧 Phase 3: FastAPI backend
-- 🚧 Phase 4: React PWA frontend
+- ✅ Phase 3: FastAPI backend
+- ✅ Phase 4: React PWA frontend
 - 🚧 Phase 5: Deployment
 
 ## Tech stack
 
 - **ML**: PyTorch, torchvision (MobileNetV3-Small with transfer learning)
 - **Data**: PlantVillage dataset via Kaggle API
-- **Tooling**: Jupyter, scikit-learn, pandas
+- **Tooling**: Jupyter, scikit-learn, pandas, React, Vite, Tailwind CSS v4
 
 ## Project structure
 
@@ -24,7 +24,7 @@ notebooks/   # Exploration and experiments
 data/        # Datasets (gitignored)
 models/      # Trained model weights (gitignored)
 api/         # FastAPI backend (coming soon)
-web/         # React frontend (coming soon)
+web/         # React + Vite + Tailwind frontend with PWA support
 \`\`\`
 
 ## Setup
