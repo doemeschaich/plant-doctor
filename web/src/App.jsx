@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const API_URL = 'http://192.168.x.x:8000'
+const API_URL = 'http://localhost:8000'
 
 function App() {
   const [imageFile, setImageFile] = useState(null)
